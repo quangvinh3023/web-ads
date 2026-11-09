@@ -38,3 +38,4 @@ Nạp token chỉ cộng số dư demo, không gọi cổng thanh toán. Thống
 ## Trước khi vận hành thật
 
 Cần backend/database, xác thực và phân quyền server, upload ảnh, sổ giao dịch token có tính nguyên tử và chống thanh toán lặp, xác nhận thanh toán, job hết hạn, hệ thống đo lượt xem và quy trình kiểm duyệt. Chốt cách tính tháng, làm tròn, chính sách chuyển gói, gia hạn, tạm dừng và hoàn phí với chủ sản phẩm trước khi viết nghiệp vụ thanh toán thật.
+# web-ads
