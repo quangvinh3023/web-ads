@@ -39,3 +39,20 @@ Nạp token chỉ cộng số dư demo, không gọi cổng thanh toán. Thống
 
 Cần backend/database, xác thực và phân quyền server, upload ảnh, sổ giao dịch token có tính nguyên tử và chống thanh toán lặp, xác nhận thanh toán, job hết hạn, hệ thống đo lượt xem và quy trình kiểm duyệt. Chốt cách tính tháng, làm tròn, chính sách chuyển gói, gia hạn, tạm dừng và hoàn phí với chủ sản phẩm trước khi viết nghiệp vụ thanh toán thật.
 # web-ads
+
+## GitHub Pages — quangvinh3020/web-ads
+
+Workflow `.github/workflows/deploy-pages.yml` tự build và deploy khi push lên `main`, hoặc khi chọn **Run workflow** trong tab Actions.
+
+1. Trong repo GitHub, mở **Settings → Pages → Build and deployment → Source**, chọn **GitHub Actions**.
+2. Push các thay đổi lên nhánh `main`.
+3. Theo dõi workflow **Deploy to GitHub Pages** trong tab **Actions**.
+4. Khi deploy thành công, mở https://quangvinh3020.github.io/web-ads/.
+
+Workflow đặt `GITHUB_PAGES=true` để Next.js build với `basePath: '/web-ads'`. Local và các nền tảng khác vẫn dùng đường dẫn gốc. Không cần commit thư mục `out/` hoặc token GitHub vào repo; workflow dùng quyền `GITHUB_TOKEN` do GitHub cấp.
+
+Kiểm tra bản build Pages tại máy:
+
+```bash
+GITHUB_PAGES=true npm run build
+```
