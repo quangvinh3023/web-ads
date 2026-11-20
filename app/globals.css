@@ -113,3 +113,19 @@ body{background:var(--cream);color:var(--ink);font-size:14px}
 @media(min-width:900px){.ad-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}.carousel{grid-auto-columns:calc((100% - 66px)/4);gap:22px}.city-grid{grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(2,auto)}.dashboard .fav-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:1150px){.ad-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.carousel{grid-auto-columns:calc((100% - 88px)/5)}}
 @media(max-width:600px){.site-header-inner{height:72px}.logo-text{font-size:27px}.head-actions{gap:8px}.circle-btn{width:42px;height:42px}.burger{width:48px;height:42px}.topbar,.topbar>button{font-size:13px}.ad-grid,.carousel{gap:10px}.carousel{grid-auto-columns:calc((100% - 20px)/3)}.ad-card{border-radius:10px}.ad-info{padding:8px}.ad-info strong{font-size:14px}.ad-info span{font-size:11px}.ad-badges{left:6px;top:6px;gap:4px}.ad-badges>span{width:21px;height:21px}.ad-badges svg{width:10px;height:10px}.ad-fav{width:24px;height:24px;right:6px;top:6px}.ad-fav svg{width:12px}.ad-card.tier-top{box-shadow:0 0 0 3px var(--pink)}.sec-filter{width:48px;height:48px}.line-select>select,.line-input>input{font-size:18px}.city-grid>button{font-size:15px}.dots{gap:9px}.dots button{width:12px;height:12px}}
+/* ===== asianescort: thanh danh mục, topbar, logo ===== */
+.topbar>div{display:flex;align-items:center;gap:22px}
+.topbar .buy-tokens{color:var(--pink-d);font-weight:800;letter-spacing:.4px}
+.topbar .buy-tokens svg{color:#fff;background:var(--pink);border-radius:50%;padding:3px;width:20px;height:20px}
+.logo-text{font-size:28px}
+.logo-text b{font-weight:700;color:var(--pink-d)}
+.cat-nav{background:#fff4f8;border-bottom:1px solid #f6d6e2;position:relative}
+.cat-nav-inner{width:min(1240px,calc(100% - 32px));margin:0 auto;display:flex;justify-content:space-between;gap:6px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.cat-nav-inner::-webkit-scrollbar{display:none}
+.cat-nav-inner>button{flex-shrink:0;padding:15px 10px 13px;font-size:17px;font-weight:600;color:var(--ink);white-space:nowrap;border-bottom:3px solid transparent;border-radius:0}
+.cat-nav-inner>button:hover{color:var(--pink-d)}
+.cat-nav-inner>button.on{color:var(--pink-d);border-bottom-color:var(--pink)}
+.footer .footer-brand .logo{margin-bottom:4px}
+.footer .footer-brand .logo-text{font-size:26px}
+@media(max-width:1150px){.cat-nav-inner{justify-content:flex-start;gap:2px}.cat-nav-inner>button{font-size:15px;padding:13px 10px 11px}}
+@media(max-width:600px){.logo-text{font-size:21px}.logo-mark svg:first-child{width:32px;height:32px}.logo{gap:8px}.topbar>div{gap:14px}.topbar .buy-tokens{font-size:12px}.cat-nav:after{content:'';position:absolute;right:0;top:0;bottom:3px;width:28px;background:linear-gradient(90deg,transparent,#fff4f8);pointer-events:none}.cat-nav-inner>button{font-size:14px;padding:12px 9px 10px}.footer-brand{display:block!important}}
